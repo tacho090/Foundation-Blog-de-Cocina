@@ -10,143 +10,286 @@
       <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
     </head>
     <body>
-      <div class="callout large primary">
+      <!--Presentación superior-->
+      <div class="callout large primary" style="background-color: rgba(255, 255, 255, .8);">
         <div class="row column text-left">
           <h1 class="text-center">Nuestro blog</h1>
           <p class="text-center"><em>-Para los amantes de la mejor gastronomía-</em></p>
         </div>
       </div>
 
+      <!--Contenedor principal-->
+      <div class="row" style="background-color: rgba(255, 255, 255, .8);">
 
+        <!--Menu lateral-->
+        <div class="small-12 medium-12 large-4 columns">
+          <div class="callout">
+            <div class="input-group">
+              <input class="input-group-field" type="text" placeholder="Buscar...">
+              <div class="input-group-button">
+                <i class="button fi-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
 
-      <div class="row" >
-      <div class="small-12 medium-12 large-4 columns">
-        <div class="callout">
-          <div class="input-group">
-            <input class="input-group-field" type="text">
-            <div class="input-group-button">
-              <i class="button fi-magnifying-glass"></i>
+          <div class="button-group medium stacked">
+              <a class="button mar-b letter">Inicio</a>
+              <a class="button mar-b">Mi plato perfecto</a>
+              <a class="button mar-b">Mis recetas</a>
+          </div>
+
+          <!--div desaparece en pantallas mid hacia abajo-->
+          <div>
+            <div style="vertical-align:middle;width:90%;margin:auto;">
+              <div class="row hide-for-medium-only">
+                <h4>Favoritos</h4>
+                  <div class="columns large-4 col-img">
+                    <img class="hide img-r" src="img/food.jpg" style="height:100%;"/>
+                  </div>
+                  <div class="columns large-4 col-img">
+                    <img class="hide img-r" src="img/food.jpg"/>
+                  </div>
+                  <div class="columns large-4 col-img">
+                    <img class="hide img-r" src="img/food.jpg"/>
+                  </div>
+              </div>
+              <div class="row hide-for-medium-only">
+                <div class="columns large-4 col-img">
+                  <img class="hide img-r" src="img/food.jpg"/>
+                </div>
+                <div class="columns large-4 col-img">
+                  <img class="hide img-r" src="img/food.jpg"/>
+                </div>
+                <div class="columns large-4 col-img">
+                  <img class="hide img-r" src="img/food.jpg"/>
+                </div>
+              </div>
+            </div>
+            <div class="row hide-for-medium-only" style="vertical-align:middle;width:90%;margin:auto;">
+              <h4>Historial:</h4>
+                <button class="hollow button expanded" href="#">Raviolis de carne gratinados</button><br/>
+                <button class="hollow button expanded" href="#">Postres en 5 minutos</button><br/>
+                <button class="hollow button expanded" href="#">Formas de hornear en la casa</button><br/>
+                <button class="hollow button expanded" href="#">Pollo en salsa</button><br/>
+                <button class="hollow button expanded" href="#">Carne de cerdo BBQ</button><br/>
             </div>
           </div>
         </div>
 
-        <div class="button-group medium stacked">
-            <a class="button mar-b">Inicio</a>
-            <a class="button mar-b">Mi plato perfecto</a>
-            <a class="button mar-b">Mis recetas</a>
-        </div>
+      <!--Blog posts-->
+        <div class="large-8 columns">
+          <div class="row">
+            <div class="columns">
 
-        <!--div desaparece en pantallas mid hacia abajo-->
-        <div>
+              <!--Primer post del blog-->
+              <div class="blog-post">
+                <div class="callout">
+                  <h3>Awesome blog post title <small>3/6/2015</small></h3>
+                  <img class="thumbnail" src="https://placehold.it/850x350">
+                  <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+                  <div class="callout">
+                    <form>
+                      <label>
+                        Escribe un comentario
+                        <textarea placeholder="Comentario..." rows="4"></textarea>
+                      </label>
+                      <a href="#" class="button"><i class="button fi-pencil"></i> Publicar </a>
+                    </form>
+                  </div>
 
-          <div class="row hide-for-medium-only">
-            <h4>Favoritos</h4>
-              <div class="columns large-4 col-img">
-                <img class="hide img-r" src="img/food.jpg" style="height:100%;"/>
+                  <div class="callout">
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="columns large-4 col-img">
-                <img class="hide img-r" src="img/food.jpg"/>
+
+              <!--Segundo post del blog-->
+              <div class="blog-post">
+                <div class="callout">
+                  <h3>Awesome blog post title <small>3/6/2015</small></h3>
+                  <img class="thumbnail" src="https://placehold.it/850x350">
+                  <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+                  <div class="callout">
+                    <form>
+                      <label>
+                        Escribe un comentario
+                        <textarea placeholder="Comentario..." rows="4"></textarea>
+                      </label>
+                      <a href="#" class="button"><i class="button fi-pencil"></i> Publicar </a>
+                    </form>
+                  </div>
+
+                  <div class="callout">
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="columns large-4 col-img">
-                <img class="hide img-r" src="img/food.jpg"/>
+
+              <!--Tercer post del blog-->
+              <div class="blog-post">
+                <div class="callout">
+                  <h3>Awesome blog post title <small>3/6/2015</small></h3>
+                  <img class="thumbnail" src="https://placehold.it/850x350">
+                  <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+                  <div class="callout">
+                    <form>
+                      <label>
+                        Escribe un comentario
+                        <textarea placeholder="Comentario..." rows="4"></textarea>
+                      </label>
+                      <a href="#" class="button"><i class="button fi-pencil"></i> Publicar </a>
+                    </form>
+                  </div>
+
+                  <div class="callout">
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+
+              <!--Cuarto post del blog-->
+              <div class="blog-post">
+                <div class="callout">
+                  <h3>Awesome blog post title <small>3/6/2015</small></h3>
+                  <img class="thumbnail" src="https://placehold.it/850x350">
+                  <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+                  <div class="callout">
+                    <form>
+                      <label>
+                        Escribe un comentario
+                        <textarea placeholder="Comentario..." rows="4"></textarea>
+                      </label>
+                      <a href="#" class="button"><i class="button fi-pencil"></i> Publicar </a>
+                    </form>
+                  </div>
+
+                  <div class="callout">
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                    <hr/>
+                    <div class="row" style="margin-bottom:10px;">
+                      <div class="small-2 medium-2 large-2 columns">
+                        <img src="img/man.png"/>
+                      </div>
+                      <div class="small-10 medium-10 large-10 columns">
+                        <p><strong>María M:</strong>Qué gran post, aprendí mucho sobre la comida artesanal.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row column">
+                <ul class="pagination" role="navigation" aria-label="Pagination">
+                  <li class="disabled">Previous</li>
+                  <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                  <li><a href="#" aria-label="Page 2">2</a></li>
+                  <li><a href="#" aria-label="Page 3">3</a></li>
+                  <li><a href="#" aria-label="Page 4">4</a></li>
+                  <li class="ellipsis"></li>
+                  <li><a href="#" aria-label="Page 12">12</a></li>
+                  <li><a href="#" aria-label="Page 13">13</a></li>
+                  <li><a href="#" aria-label="Next page">Next</a></li>
+                </ul>
+              </div>
+
+            </div>
           </div>
-          <div class="row hide-for-medium-only">
-              <div class="columns large-4 col-img">
-                <img class="hide img-r" src="img/food.jpg"/>
-              </div>
-              <div class="columns large-4 col-img">
-                <img class="hide img-r" src="img/food.jpg"/>
-              </div>
-              <div class="columns large-4 col-img">
-                <img class="hide img-r" src="img/food.jpg"/>
-              </div>
-          </div>
-          <div class="row hide-for-medium-only">
-            <h4>Historial:</h4>
-            <ul>
-              <li><a href="#"><p>Raviolis de carne gratinados</p></a></li>
-              <li><a href="#"><p>Postres en 5 minutos</p></a></li>
-              <li><a href="#"><p>Formas de hornear en la casa</p></a></li>
-              <li><a href="#"><p>Pollo en salsa</p></a></li>
-              <li><a href="#"><p>Carne de cerdo BBQ</p></a></li>
-            </ul>
-          </div >
         </div>
-
-
       </div>
-      <div class="large-8 columns" style="border:solid 2px black;">
-        <div class="row">
-          <div class="columns">
-            <div class="blog-post">
-              <h3>Awesome blog post title <small>3/6/2015</small></h3>
-              <img class="thumbnail" src="https://placehold.it/850x350">
-              <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-              <div class="callout">
-                <ul class="menu simple">
-                  <li><a href="#">Author: Mike Mikers</a></li>
-                  <li><a href="#">Comments: 3</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="blog-post">
-              <h3>Awesome blog post title <small>3/6/2015</small></h3>
-              <img class="thumbnail" src="https://placehold.it/850x350">
-              <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-              <div class="callout">
-                <ul class="menu simple">
-                  <li><a href="#">Author: Mike Mikers</a></li>
-                  <li><a href="#">Comments: 3</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="blog-post">
-              <h3>Awesome blog post title <small>3/6/2015</small></h3>
-              <img class="thumbnail" src="https://placehold.it/850x350">
-              <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-              <div class="callout">
-                <ul class="menu simple">
-                  <li><a href="#">Author: Mike Mikers</a></li>
-                  <li><a href="#">Comments: 3</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="blog-post">
-              <h3>Awesome blog post title <small>3/6/2015</small></h3>
-              <img class="thumbnail" src="https://placehold.it/850x350">
-              <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-              <div class="callout">
-                <ul class="menu simple">
-                  <li><a href="#">Author: Mike Mikers</a></li>
-                  <li><a href="#">Comments: 3</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
 
-
-
-
-
-      <div class="row column">
-        <ul class="pagination" role="navigation" aria-label="Pagination">
-          <li class="disabled">Previous</li>
-          <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-          <li><a href="#" aria-label="Page 2">2</a></li>
-          <li><a href="#" aria-label="Page 3">3</a></li>
-          <li><a href="#" aria-label="Page 4">4</a></li>
-          <li class="ellipsis"></li>
-          <li><a href="#" aria-label="Page 12">12</a></li>
-          <li><a href="#" aria-label="Page 13">13</a></li>
-          <li><a href="#" aria-label="Next page">Next</a></li>
-        </ul>
-      </div>
       <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
       <script>

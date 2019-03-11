@@ -1,17 +1,46 @@
+body{
+  background: url("../img/background50.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+
+}
+
 .mar-b{
   margin-bottom:2px;
+
+}
+
+.margen div{
+  margin: 10px auto;
 }
 
 .img-r{
   border-radius:8px;
+  border-width:3px;
+  border-color:white;
   height:100%;
 }
 
 .col-img{
-  
+
   height:400px;
   margin-bottom: 10px;
   padding:10px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.pos{
+  float: right;
 }
 
 /* Media query */
