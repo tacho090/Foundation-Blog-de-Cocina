@@ -16,26 +16,30 @@ body{
   margin: 10px auto;
 }
 
+/*.img-eye{
+  background-size:cover;
+  border-width:3px;
+  border-color:white;
+  background-position: top;
+}*/
+
+
 .img-r{
   border-radius:8px;
   border-width:3px;
   border-color:white;
-  height:100%;
 }
+
 
 .col-img{
-
-  height:400px;
   margin-bottom: 10px;
   padding:10px;
+
 }
 
-.btn-center00{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  text-align:center;
+.btn-center{
+  padding-top:50px;
+  padding-left:30px;
 }
 
 hr {
